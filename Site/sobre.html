@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#4B2E22">
+  <meta name="description" content="Conheça Do Cacau ao Mandacaru, projeto idealizado por Wilson Midlej para valorizar a memória e a cultura regional.">
+  <title>Sobre | Do Cacau ao Mandacaru</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Do Cacau ao Mandacaru, início">
+      <span class="brand-mark" aria-hidden="true">C<span>&</span>M</span>
+      <span class="brand-name">Do Cacau ao Mandacaru<small>A REGIÃO EM QUESTÃO</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span>
+    </button>
+    <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+      <a href="episodios.html" target="_blank" rel="noopener noreferrer">Episódios</a>
+      <a href="artigos.html" target="_blank" rel="noopener noreferrer">Artigos</a>
+      <a href="sobre.html" target="_blank" rel="noopener noreferrer" aria-current="page">Sobre</a>
+      <a href="contato.html" target="_blank" rel="noopener noreferrer">Contato</a>
+      <a class="nav-contact" href="episodios.html#episodio-destaque" target="_blank" rel="noopener noreferrer">Ouça o podcast <span aria-hidden="true">↓</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="section-wrap page-hero-inner">
+        <p class="eyebrow"><span></span> SOBRE O PROJETO</p>
+        <h1 class="page-title">Uma região, <em>muitas histórias.</em></h1>
+        <p class="page-lede">Do Cacau ao Mandacaru é uma travessia de cultura, memória e história pelo sul e sudeste da Bahia.</p>
+      </div>
+    </section>
+
+    <section class="about section-wrap about-page">
+      <div class="section-label"><span>01</span> A REGIÃO EM QUESTÃO</div>
+      <div class="about-content">
+        <div class="about-copy">
+          <p class="eyebrow"><span></span> IDEALIZADO POR WILSON MIDLEJ</p>
+          <h2>Do litoral do cacau <em>ao sertão verde.</em></h2>
+          <p>Do Cacau ao Mandacaru é um site que abriga podcast, blog e conteúdos culturais e históricos, dedicado à valorização da identidade regional, à reflexão e à formação da opinião pública.</p>
+          <p>O nome desenha uma travessia pelo sul e sudeste da Bahia, aproximando paisagens, experiências e modos de viver. Parte da cultura do cacau e alcança a resistência simbolizada pelo mandacaru, encontrando, nesse percurso, homens e mulheres que forjaram a personalidade da região.</p>
+          <p>São histórias de pioneiros que plantaram cacauais, desenvolveram a pecuária, o comércio e os serviços, criaram hábitos e linguagem próprios e enriqueceram a culinária com contribuições árabes e italianas. Gente que projetou literatura, destacou-se nos esportes e construiu uma identidade que reúne a vida às margens do Rio de Contas e um pouco da sofisticação grapiúna.</p>
+          <p>O site abriga podcast e blog, além de registros históricos, textos antigos, poemas, frases, clipes e uma seleção de músicas, incluindo clássicos. Também acolhe opiniões de terceiros, ampliando o espaço para diferentes experiências e perspectivas.</p>
+          <p>A memória regional oferece um ponto de partida para compreender o presente e discutir o futuro. Com independência editorial, o projeto propõe uma conversa permanente sobre as raízes, as contradições, as possibilidades e os caminhos que sua gente deseja construir.</p>
+        </div>
+        <div class="about-photo-grid" aria-label="Wilson Midlej e paisagens do cacau e do mandacaru">
+          <figure class="about-wilson">
+            <img src="Wilson.jpeg" alt="Wilson Midlej segurando um de seus livros">
+            <figcaption>Wilson Midlej, idealizador do projeto</figcaption>
+          </figure>
+          <figure>
+            <img src="cacau.jpg" alt="Fruto amarelo de cacau ainda preso à árvore">
+            <figcaption>O litoral do cacau</figcaption>
+          </figure>
+          <figure>
+            <img src="mandacaru.jpg" alt="Mandacaru alto em meio à paisagem sertaneja, sob o céu azul">
+            <figcaption>A resistência do sertão</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="about-pillars">
+        <article>
+          <span>01</span>
+          <h3>Memória regional</h3>
+          <p>Histórias, lugares e pessoas como ponto de partida para compreender o presente.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Cultura viva</h3>
+          <p>Um espaço para expressão, escuta e valorização das identidades da região.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Independência editorial</h3>
+          <p>Uma conversa aberta sobre as raízes, os desafios e as possibilidades da Bahia.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true">C<span>&</span>M</span>
+      <span class="brand-name">Do Cacau ao Mandacaru<small>A REGIÃO EM QUESTÃO</small></span>
+    </a>
+    <p>Uma travessia de histórias, vozes e territórios.</p>
+    <a class="back-top" href="#">VOLTAR AO TOPO ↑</a>
+    <span class="copyright">© <span id="current-year"></span> DO CACAU AO MANDACARU</span>
+  </footer>
+</body>
+</html>
